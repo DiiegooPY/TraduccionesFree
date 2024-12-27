@@ -1,0 +1,68 @@
+noConsole: "&c¡Solo para jugadores en el juego!"
+noPermission: "&c¡Sin permiso!"
+invalidSubCommand: "&c¡Subcomando inválido! Ejecuta &e/hdb help&c para ayuda."
+giveCommandInvalid: "&cCabeza inválida: &e%name%"
+invalidArguments: "&c¡Argumentos inválidos! Usa &e/hdb help&c para ayuda."
+invalidTarget: "&cObjetivo inválido: &e%name%"
+invalidCategory: "&c¡Categoría inválida!"
+invalidNumber: "&e%name% &cno es un número!"
+invalidPageIndex: "&c¡Esa página está fuera de límites! Máx: %pages%"
+noAccessFavorites: "&c¡No tienes acceso a favoritos!"
+
+openDatabase: "" # Intencionalmente vacío. Se envía cuando se abre la interfaz principal
+updateDatabase: "&7Actualizando..."
+updateDatabaseDone: "&7¡Hecho! Total de Cabezas: &6%size%"
+reloadCommand: "&7Recargando, por favor espera antes de usar el complemento..."
+reloadCommandDone: "&7¡Recarga completada!"
+searchCommand: "&7Buscando cabezas que coincidan con: &6%query%"
+searchCommandResults: "&7Encontradas &6%size% &7coincidencias!"
+giveCommand: "&7Dado &6x%size% %name% &7a &6%receiver%"
+itemTexture: "&7Textura: &6%texture%"
+itemNoTexture: "&c¡Este objeto no tiene textura!"
+copyTexture: "&6¡Haz clic para copiar la textura!"
+addedFavorite: "&7Añadido &6%name% &7a tus favoritos!"
+removedFavorite: "&7Eliminado &6%name% &7de tus favoritos!"
+
+# Solo se muestra si la economía está habilitada
+processPayment: "&7Comprando &6%name% &7por &6%cost%&7. Por favor espera..."
+completePayment: "&7Recibido &6%name% &7por &6%cost%"
+invalidFunds: "&c¡No tienes suficiente para comprar &6%name%&c!"
+
+invalidLanguage: "&c¡Idioma inválido! Disponible: &e%languages%"
+languageChanged: "&7Tu idioma se estableció en: &6%language%"
+
+menu:
+  main:
+    title: "&cHeadDB &7(%size%)"
+    category:
+      name: "&6&l%category%"
+      page:
+        name: "&7Ir a una página específica"
+      lore:
+        - "&7Clic izquierdo para abrir"
+        - "&7Clic derecho para abrir una página específica"
+    favorites:
+      name: "&6Favoritos"
+    search:
+      name: "&6Buscar"
+    local:
+      name: "&6Cabezas Locales"
+  category:
+    name: "&cHeadDB &7- &6%category% &7(%size%)"
+  head:
+    name: "&6%name%"
+  search:
+    name: "&cHeadDB &7- &6Buscar: %query% &7(%size%)"
+  page:
+    name: "&cHeadDB &7- &6Introduce el número de página"
+  settings:
+    name: "&cHeadDB &7- &6Configuraciones"
+    language:
+      # Nombre de la configuración
+      name: "&cIdioma"
+      # Idiomas disponibles en la descripción
+      available: "&7Idiomas disponibles: &6%size%"
+      # Título del inventario de selección de idioma
+      title: "&cHeadDB &7- &6Idiomas &7(%size%)"
+      # Formato del nombre del idioma
+      format: "&6%language%"
